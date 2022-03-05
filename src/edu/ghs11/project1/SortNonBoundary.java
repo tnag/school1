@@ -2,6 +2,7 @@ package edu.ghs11.project1;
 
 import java.util.Scanner;
 
+//feat-3 no sides are open
 public class SortNonBoundary {
 
 	int m=0;
