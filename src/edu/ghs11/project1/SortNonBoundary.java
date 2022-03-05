@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class SortNonBoundary {
 
 	int m=0;
-	int A[][]=null;
+	int A[][]=null;  // size to be determised
 	
 	SortNonBoundary(){
 		
