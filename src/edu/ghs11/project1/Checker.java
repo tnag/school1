@@ -66,7 +66,7 @@ public class Checker {
     }
     
     
-    
+    // display output uat1
     void display( ) {
     
         long temp = num;
