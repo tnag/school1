@@ -15,6 +15,7 @@ public class SortMatrix {
 	   this.cols = n;
 	}
 	
+	// feature 1
 	public void readInputMatrix() {
 		
 		System.out.println("Enter Matrix of integers ..");
