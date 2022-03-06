@@ -10,6 +10,7 @@ public class SortMatrix {
 	int[][] inputMatrix = null; 
 	int min,max,mini,minj,maxi,maxj = 0;
 	
+	//feat-6
 	SortMatrix(int m, int n){
 	   this.rows = m;
 	   this.cols = n;
