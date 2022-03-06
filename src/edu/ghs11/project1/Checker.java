@@ -4,8 +4,8 @@ package edu.ghs11.project1;
 import java.util.Scanner;
 
 public class Checker {
-
-    long num,rev;
+    // feature-5
+    long num,reverse;
    
     
     // constructor
@@ -22,22 +22,22 @@ public class Checker {
         String s="";
         
         if (q < 10) {
-            s=rev+""+q;
+            s=reverse+""+q;
              
-            rev = Long.valueOf(s);
+            reverse = Long.valueOf(s);
         }
         else {
             // print the unit digit of the given number
              
-            s=rev+""+(q % 10 );    
-            rev = Long.valueOf(s);
+            s=reverse+""+(q % 10 );    
+            reverse = Long.valueOf(s);
             // calling function for remaining number other
             // than unit digit
             reverseNum(q / 10);
            
         }
         
-        return rev;
+        return reverse;
         
     }
     
