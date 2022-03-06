@@ -2,7 +2,7 @@ package edu.ghs11.project1;
 
 
 import java.util.Scanner;
-
+//check prime palindrome feat-4
 public class Checker {
 
     long num,rev;
