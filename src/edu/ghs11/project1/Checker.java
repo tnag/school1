@@ -1,11 +1,11 @@
 package edu.ghs11.project1;
 
-
+// HOTFIX 7
 import java.util.Scanner;
 //check prime palindrome feat-4
 public class Checker {
     // feature-5
-    long num,reverse;
+    long num,reverse,abc;
    
     
     // constructor
